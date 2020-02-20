@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Gatsby Theme UI Emotion TailwindCSS Starter`,
+    description: `Kick off your next, great Gatsby project with Theme UI, Emotion and TailwindCSS.`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `gatsby-starter-theme-ui-emotion-tailwind`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
@@ -27,8 +27,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-emotion`,
+    `gatsby-plugin-theme-ui`,
   ],
 }
