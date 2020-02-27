@@ -17,10 +17,10 @@ import tw from "twin.macro"
 import Header from "./header"
 import "./layout.css"
 
-const Wrapper = tw.div`mx-auto max-w-xl px-4 pb-6 text-foo`
+const Wrapper = tw.div`mx-auto max-w-xl px-4 pb-6`
 
 const StyledTestComponent = styled.div`
-  ${tw`m-5 p-4 border text-red-400`}
+  ${tw`m-5 p-4 border text-red-400 mb-0 font-foo`}
 
   outline: 3px dashed blue;
 `
